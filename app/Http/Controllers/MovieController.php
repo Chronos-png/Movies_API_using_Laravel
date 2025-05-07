@@ -5,10 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Movie;
 use Illuminate\Http\Request;
 
-/**
- * @OA\Info(title="Movies API", version="1.0")
- * @OA\Tag(name="Movies", description="Endpoint Untuk Manage Movies")
- */
+
 class MovieController extends Controller
 {
     /**
